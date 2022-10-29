@@ -1,0 +1,385 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{
+    min-width: 100vw;
+}
+
+body{
+    width: 100vh;
+    overflow-x: hidden;
+}
+
+canvas{
+    position: fixed;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+.quest{
+    color: #07FFEE;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 0 10vw;
+}
+
+.logo img{
+    width: 32px;
+
+}
+
+.menu{
+    width: 100vw;
+    height: 8vh;
+    position: fixed ;
+    z-index: 1;
+    top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #19193E;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+nav{
+    min-width: 30vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 10vw;
+}
+
+nav .btn-aqua{
+    padding: 7px 20px;
+    font-size: 13px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.central-1{
+    position: absolute;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%,50%);
+    text-align: center;
+    gap: 20px;
+}
+
+.central-1 h2{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+}
+
+.central-1 p{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.central-1 .btn-aqua{
+    margin: 0 auto;
+}
+
+
+
+.sec-1{
+    width: 100vw;
+    min-height: 92vh;
+    margin-top: 8vh;
+    position: absolute;
+    text-align: left;
+    background-image: url(/img/sq-desktop-80-boneco.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.sec-2{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 125vh 10px 0;
+    padding: 0 10px;
+}
+
+.right-2{
+    width: 90%;
+    min-height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+}
+
+.right-2 h3, .right-2 p{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    
+}
+.right-2 h3{
+    font-size: 24px;
+}
+.right-2 p{
+    font-size: 16px;
+}
+
+.left-2{
+    width: 70%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.left-2 h2, .left-2 p, .left-2 a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.left-2 h2{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+}
+
+.left-2 p{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.left-2 a, .btn-aqua{
+    color: black;
+    font-weight: 700;
+}
+
+.btn-aqua{
+    background-color: #07FFEE;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 10px 20px; 
+    box-shadow: inset -3px -3px 0 0 #00D8C9,inset 3px 3px 0 0 #A6FFF9;
+}
+
+
+.card{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    
+    
+}
+.card img{
+    width: 80px;
+}
+
+
+.sec-3{
+    min-width: 100vw;
+    min-height: 92vh;
+    margin-top: 200vh;
+    position: absolute;
+    text-align: left;
+    background-image: url(/img/rocket-hero.svg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: border-box;
+}
+
+.sec-3 h2{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+}
+
+.sec-3 p{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.txt-3{
+    min-width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.sec-4{
+    width: 100vw;
+    min-height: 150vh;
+    margin-top: 300vh;
+    position: absolute;
+    text-align: left;
+    background-image: url(/img/moon-hero.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.unique-4{
+    width: 30vw;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%,50%);
+    text-align: left;
+    gap: 20px;
+}
+
+.unique-4 h2{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+}
+
+.unique-4 p{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.unique .btn-aqua{
+    margin: 0 auto;
+}
+
+
+.sec-5{
+    width: 100vw;
+    min-height: 80vh;
+    margin-top: 433vh;
+    position: absolute;
+    text-align: left;
+    background-color: #23234E;
+}
+
+.txt-5{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,15%);
+    gap: 25px;
+}
+
+.txt-5 h2{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+}
+
+details {
+    width: 920px;
+    min-height: 50px;
+}
+details summary{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+details p{
+    color: #f5ebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+footer{
+    position: absolute;
+    top: 513vh;
+    bottom: 0;
+    width: 100vw;
+    min-height: 20rem;
+    background-color: #19193E;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-around;
+    color: #f5ebeb;
+    gap: 40px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: left;
+}
+
+.footer h3{
+    font-size:34px;
+    
+}
+.footer p{
+    font-size:20px;
+    
+}
+.footer a{
+    height: 40px;
+}
+.policys{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #f5ebeb;
+    gap: 20px;
+    position: absolute;
+    text-align: left;
+    top: 70%;
+    left: 34.5%;
+    transform: translate(-50%,50%);
+}
+
+.policys p{
+    cursor: pointer;
+}
+
