@@ -105,7 +105,7 @@ a{
     margin-top: 8vh;
     position: absolute;
     text-align: left;
-    background-image: url(/img/sq-desktop-80-boneco.svg);
+    background-image: url(img/sq-desktop-80-boneco.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -210,7 +210,7 @@ a{
     margin-top: 200vh;
     position: absolute;
     text-align: left;
-    background-image: url(/img/rocket-hero.svg);
+    background-image: url(img/rocket-hero.svg);
     background-size: 120%;
     background-repeat: no-repeat;
     background-position: center;
@@ -250,7 +250,7 @@ a{
     margin-top: 300vh;
     position: absolute;
     text-align: left;
-    background-image: url(/img/moon-hero.svg);
+    background-image: url(img/moon-hero.svg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
